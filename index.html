@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f7f5ef">
+    <meta name="theme-color" content="#f4f7f9">
     <meta name="description" content="Get a polished, one-page website that helps your small business look its best and bring in more customers.">
     <title>One Page, More Possibilities — websites for small businesses</title>
     <style>
       :root {
         color-scheme: light;
-        --ink: #17241f;
-        --muted: #62706a;
-        --paper: #f7f5ef;
-        --white: #fffefa;
-        --green: #245c46;
-        --green-dark: #193f32;
-        --lime: #d7ed78;
-        --line: #e5e3db;
+        --ink: #1e2d3b;
+        --muted: #667784;
+        --paper: #f4f7f9;
+        --white: #fcfdfe;
+        --blue: #426b8a;
+        --blue-dark: #2e4e67;
+        --pale-blue: #d7e6f1;
+        --line: #e0e7ec;
         --serif: Georgia, "Times New Roman", serif;
         --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
       }
@@ -64,8 +64,8 @@
         height: 31px;
         place-items: center;
         border-radius: 9px;
-        background: var(--green);
-        color: var(--lime);
+        background: var(--blue);
+        color: var(--pale-blue);
         font-family: var(--serif);
         font-size: 20px;
         line-height: 1;
@@ -80,7 +80,7 @@
       }
 
       .nav a { text-decoration: none; }
-      .nav a:hover { color: var(--green); }
+      .nav a:hover { color: var(--blue); }
 
       .nav .nav-cta {
         padding: 11px 17px;
@@ -107,7 +107,7 @@
         gap: 9px;
         align-items: center;
         margin: 0 0 22px;
-        color: var(--green);
+        color: var(--blue);
         font-size: 11px;
         font-weight: 800;
         letter-spacing: .13em;
@@ -134,7 +134,7 @@
       }
 
       h1 em {
-        color: var(--green);
+        color: var(--blue);
         font-weight: 750;
       }
 
@@ -160,9 +160,9 @@
         align-items: center;
         justify-content: center;
         padding: 0 20px;
-        border: 1px solid var(--green);
+        border: 1px solid var(--blue);
         border-radius: 999px;
-        background: var(--green);
+        background: var(--blue);
         color: white;
         font-size: 13px;
         font-weight: 700;
@@ -170,8 +170,15 @@
         transition: background .2s, transform .2s;
       }
 
-      .button:hover { transform: translateY(-2px); background: var(--green-dark); }
+      .button:hover { transform: translateY(-2px); background: var(--blue-dark); }
       .button .arrow { font-size: 17px; line-height: 1; }
+
+      .actions .button {
+        border-color: var(--blue);
+        background: var(--blue);
+      }
+
+      .actions .button:hover { background: var(--blue-dark); }
 
       .text-link {
         padding: 12px 8px;
@@ -198,8 +205,8 @@
         height: 23px;
         place-items: center;
         border-radius: 50%;
-        background: #e9edcf;
-        color: var(--green);
+        background: #e5edf3;
+        color: var(--blue);
         font-size: 13px;
       }
 
@@ -217,7 +224,7 @@
         width: 76px;
         height: 76px;
         border-radius: 50%;
-        background: var(--lime);
+        background: var(--pale-blue);
       }
 
       .browser {
@@ -225,10 +232,10 @@
         z-index: 1;
         width: min(100%, 465px);
         overflow: hidden;
-        border: 1px solid #deddd3;
+        border: 1px solid #dce4e9;
         border-radius: 14px;
         background: var(--white);
-        box-shadow: 0 25px 65px #20352a1c;
+        box-shadow: 0 25px 65px #20374a1c;
         transform: rotate(1.3deg);
       }
 
@@ -238,18 +245,18 @@
         gap: 6px;
         align-items: center;
         padding-inline: 14px;
-        border-bottom: 1px solid #ecebe5;
-        background: #fbfaf6;
+        border-bottom: 1px solid #e7edf1;
+        background: #f9fbfc;
       }
 
-      .dot { width: 7px; height: 7px; border-radius: 50%; background: #d3d5ca; }
+      .dot { width: 7px; height: 7px; border-radius: 50%; background: #cbd6de; }
 
       .address {
         width: 43%;
         height: 16px;
         margin-inline: auto;
         border-radius: 20px;
-        background: #f0efe9;
+        background: #edf2f5;
       }
 
       .site {
@@ -257,7 +264,7 @@
         min-height: 302px;
         overflow: hidden;
         padding: 20px 25px;
-        background: #f2e8d8;
+        background: #e7edf2;
       }
 
       .site-head {
@@ -270,12 +277,12 @@
         text-transform: uppercase;
       }
 
-      .site-logo { color: #394a3b; }
+      .site-logo { color: #304b60; }
 
       .site-pill {
         padding: 7px 10px;
         border-radius: 20px;
-        background: #394a3b;
+        background: #304b60;
         color: white;
         font-size: 7px;
       }
@@ -288,7 +295,7 @@
       }
 
       .site-copy small {
-        color: #867152;
+        color: #71899b;
         font-size: 7px;
         font-weight: 800;
         letter-spacing: .16em;
@@ -298,7 +305,7 @@
       .site-copy strong {
         display: block;
         margin-top: 9px;
-        color: #293c31;
+        color: #263f54;
         font-family: var(--serif);
         font-size: clamp(27px, 3.5vw, 39px);
         font-weight: 400;
@@ -309,7 +316,7 @@
       .site-copy p {
         max-width: 140px;
         margin: 11px 0 12px;
-        color: #6f6b5e;
+        color: #63727c;
         font-size: 7px;
         line-height: 1.6;
       }
@@ -318,7 +325,7 @@
         display: inline-block;
         padding: 8px 11px;
         border-radius: 20px;
-        background: #b76142;
+        background: #426b8a;
         color: white;
         font-size: 7px;
         font-weight: 700;
@@ -331,7 +338,7 @@
         width: 49%;
         height: 77%;
         border-radius: 47% 0 0 0;
-        background: #d19b65;
+        background: #91aabd;
       }
 
       .coffee::before {
@@ -340,10 +347,10 @@
         left: 18%;
         width: 67%;
         height: 65%;
-        border: 13px solid #f4dcc0;
+        border: 13px solid #dce8ef;
         border-radius: 50%;
-        background: #73513d;
-        box-shadow: inset 0 0 0 5px #9f7656;
+        background: #51483f;
+        box-shadow: inset 0 0 0 5px #7f8e98;
         content: "";
       }
 
@@ -353,7 +360,7 @@
         right: -17%;
         width: 35%;
         height: 35%;
-        border: 8px solid #f4dcc0;
+        border: 8px solid #dce8ef;
         border-left: 0;
         border-radius: 0 50% 50% 0;
         content: "";
@@ -367,7 +374,7 @@
         width: 23px;
         height: 46px;
         border-radius: 100% 0 100% 0;
-        background: #758454;
+        background: #627f96;
         transform: rotate(-24deg);
       }
 
@@ -378,7 +385,7 @@
         width: 20px;
         height: 38px;
         border-radius: 100% 0 100% 0;
-        background: #99a56f;
+        background: #a7bdcc;
         content: "";
         transform: rotate(33deg);
       }
@@ -392,10 +399,10 @@
         gap: 9px;
         align-items: center;
         padding: 12px 15px;
-        border: 1px solid #e8e7df;
+        border: 1px solid #e2e8ec;
         border-radius: 10px;
         background: var(--white);
-        box-shadow: 0 10px 24px #20352a13;
+        box-shadow: 0 10px 24px #20374a13;
         font-size: 10px;
         font-weight: 700;
         transform: rotate(-3deg);
@@ -407,8 +414,8 @@
         height: 22px;
         place-items: center;
         border-radius: 50%;
-        background: #e9f0d0;
-        color: var(--green);
+        background: #e5edf3;
+        color: var(--blue);
       }
 
       .benefits {
@@ -437,8 +444,8 @@
         height: 34px;
         place-items: center;
         border-radius: 10px;
-        background: #e9eddf;
-        color: var(--green);
+        background: #e5edf3;
+        color: var(--blue);
       }
 
       .benefit strong { display: block; font-size: 12px; }
@@ -493,7 +500,7 @@
         margin-bottom: 23px;
         place-items: center;
         border-radius: 50%;
-        background: var(--green);
+        background: var(--blue);
         color: white;
         font-family: var(--serif);
         font-size: 15px;
@@ -522,14 +529,14 @@
         margin-bottom: 60px;
         padding: 43px 48px;
         border-radius: 16px;
-        background: var(--green-dark);
+        background: var(--blue-dark);
         color: white;
       }
 
-      .cta .eyebrow { color: var(--lime); }
+      .cta .eyebrow { color: var(--pale-blue); }
       .cta h2 { max-width: 510px; margin-bottom: 9px; font-size: clamp(32px, 4vw, 43px); }
-      .cta p { margin-bottom: 0; color: #d2ded5; font-size: 13px; line-height: 1.6; }
-      .cta .button { flex: 0 0 auto; border-color: var(--lime); background: var(--lime); color: var(--ink); }
+      .cta p { margin-bottom: 0; color: #d5e0e8; font-size: 13px; line-height: 1.6; }
+      .cta .button { flex: 0 0 auto; border-color: var(--pale-blue); background: var(--pale-blue); color: var(--ink); }
       .cta .button:hover { background: white; }
 
       footer {
